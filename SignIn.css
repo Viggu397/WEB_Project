@@ -1,0 +1,224 @@
+body {
+
+    background-image: url(http://wallpaperset.com/w/full/5/6/f/135690.jpg);
+    background-size: 100%;
+  background-repeat: no-repeat;
+
+    /* background-color: linen; */
+}
+
+.logo img{
+    height: 300px;
+    padding-top: 6px;
+    margin-right: 5px;
+    margin-top: -100px;
+    
+}
+
+/* .navigate {
+    display: flex;
+    width: 100%;
+
+    height: 70px;
+    background: #7d89e7;
+
+    margin-top: -50px;
+    padding: 5px 6px;
+    margin-left: -6px;
+    justify-content: space-between;
+    opacity: 0.9;
+
+} */
+
+
+/* #title1 {
+
+    display: flex;
+    font-size: 34px;
+    padding: 27px 0px;
+    color: white;
+} */
+
+/* #title1 img {
+    width: 50px;
+    height: 50px;
+} */
+
+#content1 p {
+    margin-top: -70px;
+    font-size: 2.0rem;
+    color: rgb(165, 202, 19);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.loginoptions {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    opacity: 0.9;
+
+}
+.Sign p{
+    margin-top: -15;
+    font-size: 1.5rem;
+    color: #9dabe5;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.google {
+    margin-top: -30px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: #81c2d9e3;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fb {
+    margin-top: -30px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    background-color: #81c2d9e3;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.google img {
+    padding-top: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.fb img {
+    padding-top: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.google p {
+
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 12px;
+    color: #7a04a1;
+    font-weight: bold;
+
+}
+
+.fb p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 12px;
+    margin-left: -17px;
+    color: #7a04a1;
+    font-weight: bold;
+
+}
+
+.Or{
+    margin-top: -20px;
+    margin-top: -15;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.logincontainer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.login1 {
+    margin-top: -20px;
+    width: 530px;
+    background-color: #6d41dd;
+    top:  50%;
+    border-radius: 20px 40px;
+    opacity: 0.9;
+
+}
+
+.loginforms {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input[type=email] {
+    width: 450px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: rgb(172, 178, 193);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+input[type=password] {
+    width: 450px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: rgb(172, 178, 193);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+#forms {
+    margin-left: 38px;
+}
+
+#forms p {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #04043d;
+    font-weight: bold;
+
+}
+
+
+
+/* .logbut {
+
+    width: 50px;
+    height: 50px;
+    font-size: 5rem;
+}
+
+.loginbutton {
+    margin-top: 35px;
+    margin-bottom: 30px;
+} */
+
+input[type="Submit"] {
+    width: 70px;
+    height: 30px;
+    background: #9d13a2;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* padding: 18px; */
+    font-size: 15px;
+    /* align-items: center; */
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: rgb(212, 233, 241);
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+.sub:hover{
+    background:  #2e5ab3;
+}

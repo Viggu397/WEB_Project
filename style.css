@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --main-color: #fe5b3d;
+    --second-color: #ffac38;
+    --text-color: #444;
+    --gradient: linear-gradient (#7c2111, #d4be9f);
+}
+
+
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+
+section {
+    padding: 50px 100px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #a3bff7;
+    padding: 15px 100px;
+}
+
+.logo p {
+    color: rgb(221, 20, 20);
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    font-style: oblique;
+}
+
+
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: rgb(144, 40, 121);
+    font-weight: 500;
+}
+
+/* #city{
+    
+    background: #474fa0;
+    color: #FFF;
+    border-radius: 0.5rem;
+} */
+
+.navbar a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: var(--main-color);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+#menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+.header-btn a {
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.header-btn .sign-in {
+    background: #474fa0;
+    color: #FFF;
+    border-radius: 0.5rem;
+}
+.header-btn .sign-up {
+    background: #474fa0;
+    color: #FFF;
+    border-radius: 0.5rem;
+}
+
+.header-btn .sign-in:hover {
+    background: var(--main-color);
+}
+.header-btn .sign-up:hover {
+    background: var(--main-color);
+}
+
+#home {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: url(https://images.drive.com.au/caradvice/image/private/c_fill,f_auto,g_auto,h_675,q_auto:eco,w_1200/583b8d8a1b92374a2ae13aec38c11500);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.text h1 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+
+.text h3{
+    margin-left: 50px;
+    font-style: italic;
+    color: #9732e0;
+}
+
+.text span {
+    color: var(--main-color);
+}
+
+.text p {
+    margin: 00.5rem 0 1rem;
+}
+
+.app-store {
+    margin-top: -50px;
+    display: flex;
+}
+
+.app-store img {
+    width: 150px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.logo1{
+    margin-top: -80px;
+}
+.logo1 img{
+    width: 250px;
+}
+
+/* .form-container form {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 100px;
+    background: #fff;
+    padding: 20;
+    border-radius: 0.5rem;
+} */
+
+.input-box  {   
+    width: 200px;
+    height: 65px;
+    flex: 1 1 7rem;
+    display: flex;
+    flex-direction: column;
+    padding: 7px 7px;
+    background: #e677e9;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 50%;
+}
+
+#city{
+    border-radius: 5px;
+}
+
+#city:hover{
+    background:  #a3bff7;
+}
+
+
+/* .form-container form .btn {
+    flex: 1 1 7rem;
+    padding: 10px 34px;
+    border: none;
+    border-radius: 0.5rem;
+    background: #474fa0;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+} */
+
+/* .form-container form .btn:hover {
+    background: var(--main-color);
+} */
